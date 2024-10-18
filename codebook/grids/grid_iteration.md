@@ -3,7 +3,7 @@
 
 How to efficiently iterate over both the rows and columns of a grid.
 
-## Row Iteration
+## Row-wise iteration
 
 Iterate over the rows of a grid by using a simple `for` loop.
 
@@ -60,9 +60,9 @@ Iterate over both the rows by *chaining* them together using `itertools.chain`.
 
 ## Flattening the Grid
 
-Iterate over the items of a list by flattening it using using `itertools.chain`.
-
 ### Flattening the Grid Row-Wise
+
+Iterate over the items of a list by flattening it using using `itertools.chain`.
 
 ```python
 >>> from itertools import chain
@@ -92,4 +92,9 @@ Flatten the grid column-wise by using using `zip` along with `chain`.
 
 ## See alo
 
-[[]]
+- [[eachindex]]
+
+## References
+
+- [numpy.shape](https://numpy.org/doc/stable/reference/generated/numpy.shape.html)
+- [numpy.ndindex](https://numpy.org/doc/stable/reference/generated/numpy.ndindex.html)
